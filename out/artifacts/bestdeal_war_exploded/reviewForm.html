@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Infomation</TITLE></HEAD>
+<BODY BGCOLOR="#DDF5E6">
+<H1 ALIGN="CENTER">Review form</H1>
+<FORM ACTION="/ReviewFormServlet" method="get">
+    <!--ItemNumber: <INPUT TYPE="TEXT" NAME="itemNum"><BR>-->
+    <!--Price Each: <INPUT TYPE="TEXT" NAME="price" VALUE="$"><BR>-->
+    <HR>
+    ProductModelName: <INPUT TYPE="TEXT" NAME="modelName"><BR>
+    ProductCategory: <INPUT TYPE="TEXT" NAME="category"><BR>
+    ProductPrice: <INPUT TYPE="TEXT" NAME="price"><BR>
+    RetailerName: <INPUT TYPE="TEXT" NAME="retailerName"><BR>
+    RetailerZip: <INPUT TYPE="TEXT" NAME="retailerZip"><BR>
+    RetailerCity: <INPUT TYPE="TEXT" NAME="retailerCity"><BR>
+    RetailerState: <INPUT TYPE="TEXT" NAME="retailerState"><BR>
+    ProductOnSale:  <input type="radio" name="onsale" value="Yes"> Yes
+                    <input type="radio" name="onsale" value="No"> No<br>
+    ManufacturerName: <INPUT TYPE="TEXT" NAME=""><BR>
+    ManufacturerRebate: <input type="radio" name="rebate" value="Yes"> Yes
+                        <input type="radio" name="rebate" value="No"> No<br>
+    UserID: <INPUT TYPE="TEXT" NAME="uid"><BR>
+    UserAge: <INPUT TYPE="TEXT" NAME="uage"><BR>
+    UserGender: <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female<br>
+    UserOccupation: <INPUT TYPE="TEXT" NAME=""><BR>
+    ReviewRating(0-5): <input type="range" name="rating" min="0" max="5"><br>
+    ReviewDate: <input type="date" name="date"><br>
+    ReviewText: <TEXTAREA input NAME="reviewText" ROWS=3 COLS=40></TEXTAREA><BR>
+
+
+    <a href="/ReviewFormServlet"><INPUT TYPE="SUBMIT" VALUE="Submit Order"></a>
+</FORM>
+</BODY></HTML>

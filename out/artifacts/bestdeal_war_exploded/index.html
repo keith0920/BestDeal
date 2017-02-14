@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Xiangyu Ma CS 595 Web</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1><a href="/">Best<span>Deal</span></a></h1>
+        <h2>Best way to save money</h2>
+    </header>
+    <nav>
+        <ul>
+            <li class="start selected"><a href="index.html">Home</a></li>
+            <li class=""><a href="ProductServlet">Products</a></li>
+            <li><a href="login.html">Sign in</a></li>
+            <li class="first signup"><a href="SignUp.html">Sign up</a></li>
+            <li class="first signup"><a href="OrderHistoryServlet">Your orders</a></li>
+            <li class="end"><a href="ListServlet?category=Phone">cart</a></li>
+            <li class="last"><a href="login?cmd=logout">Logout</a></li>
+        </ul>
+    </nav>
+
+
+    <div id="body">
+
+
+
+        <section id="content">
+
+
+            <img src="ipads.jpg" style="width:682px;height:450px;">
+
+        </section>
+
+        <aside class="sidebar">
+
+            <ul>
+                <li>
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="ListServlet?category=Phone">Smart Phone</a></li>
+
+
+                        <li><a href="ListServlet?category=Tablets">Tablets</a></li>
+                        <li><a href="ListServlet?category=Laptop">Laptop</a></li>
+                        <li><a href="ListServlet?category=TV">TV</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>Trendings</h4>
+                    <ul>
+                        <li><a href="/TrendingServlet">most popular</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>Search site</h4>
+                    <ul>
+                        <li class="text">
+                            <form method="get" class="searchform" action="#" >
+                                <p>
+                                    <input type="text" size="32" value="" name="s" class="s" />
+
+                                </p>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </aside>
+        <div class="clear"></div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <ul>
+                <li><h4>My BestDeal</h4></li>
+                <li><a href="#">Learn More</a></li>
+                <li><a href="login.html">Sign in or Create Account</a></li>
+
+            </ul>
+
+            <ul>
+                <li><h4>Credit Cards</h4></li>
+                <li><a href="OrderHistoryServlet">Make Payment</a></li>
+
+            </ul>
+
+            <ul class="endfooter">
+                <li><h4>Support & Services</h4></li>
+                <li><a href="OrderHistoryServlet">Order status</a></li>
+                <li><a href="#">Cancel Order</a></li>
+
+            </ul>
+
+            <div class="clear"></div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; YourSite 2013. <a href="http://zypopwebtemplates.com/">Free CSS Website Templates</a> by ZyPOP</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

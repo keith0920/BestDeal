@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCatalog>
+
+    <console id="001" retailer="apple">
+        <name>Iphone</name>
+        <condition >Refurbished</condition>
+        <price>699</price>
+        <category>Phones</category>
+    </console>
+
+    <console id="002" retailer="samsung">
+        <name>Galaxy</name>
+        <condition >New</condition>
+        <price>299</price>
+        <category>Tablets</category>
+    </console>
+
+    <console id="003" retailer="dell">
+        <name>Alienware</name>
+        <condition >New</condition>
+        <price>1299</price>
+        <category>Laptop</category>
+    </console>
+
+    <console id="004" retailer="sony">
+        <name>BRAVIA</name>
+        <condition >New</condition>
+        <price>599</price>
+        <category>TV</category>
+    </console>
+</ProductCatalog>

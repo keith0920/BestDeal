@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+
+    <servlet>
+        <servlet-name>orderhistory</servlet-name>
+        <servlet-class>OrderHistoryServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>orderhistory</servlet-name>
+        <url-pattern>/OrderHistoryServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>signup</servlet-name>
+        <servlet-class>SignUpServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>signup</servlet-name>
+        <url-pattern>/SignUpServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>login</servlet-name>
+        <servlet-class>LoginServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>login</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SaveData</servlet-name>
+        <servlet-class>SaveDataServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>SaveData</servlet-name>
+        <url-pattern>/SaveDataServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReviewForm</servlet-name>
+        <servlet-class>ReviewFormServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>ReviewForm</servlet-name>
+        <url-pattern>/ReviewFormServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowReview</servlet-name>
+        <servlet-class>ShowReviewServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ShowReview</servlet-name>
+        <url-pattern>/ShowReviewServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Trending</servlet-name>
+        <servlet-class>TrendingServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Trending</servlet-name>
+        <url-pattern>/TrendingServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HomeServlet</servlet-name>
+        <servlet-class>HomeServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>HomeServlet</servlet-name>
+        <url-pattern>/HomeServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>ListServlet</servlet-name>
+    <servlet-class>ListServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>ListServlet</servlet-name>
+        <url-pattern>/ListServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
